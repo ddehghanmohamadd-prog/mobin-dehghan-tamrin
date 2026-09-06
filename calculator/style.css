@@ -1,0 +1,8 @@
+*{box-sizing: border-box;}
+body{margin: auto;width: fit-content;padding: 40px;}
+#calculator {display: flex;align-items: center;flex-direction: column;gap: 20px;border: 1px solid;padding: 10px;border-radius: 10px;}
+#display{border: 1px solid aqua;border-radius: 20px;padding: 10px 20px;width: 100%;}
+.buttons{display: grid;grid-template-columns:repeat(4,1fr);gap: 5px;}
+button{padding:20px;border-radius: 20px;background-color: aqua;border: 0cap;width: 100%;}
+button:hover{background-color: rgb(4, 186, 186);border: 0cap;}
+#clear{width: 100%;padding: 10px;}
